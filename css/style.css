@@ -70,6 +70,16 @@ section {
 	padding: 0px 0 50px;
 }
 
+img {
+    display: inline;
+    
+    width: 100%; /* Make the image fill the width of the container */
+    height: 100%; /* Make the image fill the height of the container */
+
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+
 /*--------------------
 1.1 Reset bootstrap
 --------------------*/
@@ -528,6 +538,7 @@ footer p {
 footer p a {
     color: #fff;
 }
+
 
 footer p a span {
     color: #FF9F46;
