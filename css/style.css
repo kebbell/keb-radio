@@ -72,7 +72,7 @@ section {
 
 img {
     display: inline;
-    
+
     width: 100%; /* Make the image fill the width of the container */
     height: 100%; /* Make the image fill the height of the container */
 
@@ -92,6 +92,8 @@ img {
 .col-0-gutter {
 	padding-left: 0;
 	padding-right: 0;
+    height: 70%;
+    
 }
 
 /*--------------------
@@ -476,6 +478,10 @@ color: #565656;
 	color: #848484;
 	padding: 18px 30px 35px 30px;
 	line-height: 24px;
+}
+
+.team-item:hover {
+    border-color: #000;
 }
 
 /*--------------------
