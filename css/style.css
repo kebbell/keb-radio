@@ -121,6 +121,22 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5); /* Optional: change background color of controls */
 }
 
+.carousel-item {
+    padding: 10px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+
 #carouselExampleControls {
     margin-top: 30px; /* Adjust as needed */
 }
