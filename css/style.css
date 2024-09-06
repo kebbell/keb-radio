@@ -43,7 +43,7 @@ p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
-	line-height: 28px;
+	line-height: 18px;
 	letter-spacing: 0.2px;
 	color: #252525;
 }
@@ -67,10 +67,10 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 0px 0 0px;
+	padding: 0px 0 30px;
 }
 
-.latest {
+.latest h2 {
 	padding: 0px 0 0px;
 }
 
@@ -270,7 +270,7 @@ a:hover {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 33px;
-	margin: 0% 100px 30px 100px;
+	margin: 0% 10px 10px 10px;
 }
 
 .mz-module .section-title {
@@ -533,7 +533,7 @@ figure.effect-bubba:hover p {
 .team-item h3 {
 font-size: 25px;
     font-weight: 300;
-    margin: 30px 0 20px;
+    margin: 40px 0 20px;
     text-transform: uppercase;
 }
 
