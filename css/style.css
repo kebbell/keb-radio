@@ -622,6 +622,7 @@ footer p a span {
 6. Modal
 --------------------*/
 
+
 .modal-content {
 	border-radius: 0;	
 }
@@ -635,7 +636,7 @@ footer p a span {
 
 .modal-body {
 	padding: 0px;
-    
+
 }
 
 .modal-body p {
