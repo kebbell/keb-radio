@@ -161,8 +161,28 @@ a:hover {
 
 .section-title h2 {
     font-size: 36px; /* Adjust size as needed */
-    margin-bottom: 60px; /* Adjust spacing as needed */
+    margin-bottom: 50px; /* Adjust spacing as needed */
     margin-top: 30px;
+}
+
+.item-link {
+    display: block;
+    position: relative;
+}
+
+.zoom-img {
+    transition: transform 0.3s ease;
+}
+
+.item-link:hover .zoom-img {
+    transform: scale(1.1);
+}
+
+
+h5 {
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
 }
 
 
