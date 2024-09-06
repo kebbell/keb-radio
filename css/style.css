@@ -79,6 +79,71 @@ img {
     object-fit: cover; /* Ensures the image covers the entire container without distortion */
 }
 
+/* CSS for zoom effect */
+.col-md-4 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.col-md-4:hover {
+    transform: scale(1.05); /* Adjust scale value to control the zoom level */
+}
+
+.team-image img {
+    transition: transform 0.3s ease;
+}
+
+.col-md-4:hover .team-image img {
+    transform: scale(1.1); /* Adjust scale value to control the zoom level */
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Ensure text decoration is still removed on hover */
+a:hover {
+    text-decoration: none;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: change background color of controls */
+}
+
+#carouselExampleControls {
+    margin-top: 30px; /* Adjust as needed */
+}
+
+/* Custom styles for the #about section */
+#about-container .carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about-container .carousel-control-prev,
+#about-container .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional */
+}
+
+/* Additional custom styles as needed */
+
+
+#about {
+    padding: 60px 0; /* Adjust as needed */
+}
+
+.section-title h2 {
+    font-size: 36px; /* Adjust size as needed */
+    margin-bottom: 30px; /* Adjust spacing as needed */
+}
+
 
 /*--------------------
 1.1 Reset bootstrap
