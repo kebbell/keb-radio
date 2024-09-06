@@ -67,7 +67,11 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 section {
-	padding: 0px 0 50px;
+	padding: 0px 0 0px;
+}
+
+.latest {
+	padding: 0px 0 0px;
 }
 
 img {
@@ -142,6 +146,7 @@ a:hover {
 .section-title h2 {
     font-size: 36px; /* Adjust size as needed */
     margin-bottom: 30px; /* Adjust spacing as needed */
+    margin-top: 20px;
 }
 
 
@@ -253,7 +258,7 @@ a:hover {
 --------------------*/
 
 .section-title {
-	padding-bottom: 30px;
+	padding-bottom: 0px;
 }
 
 .section-title h2 {
@@ -265,7 +270,7 @@ a:hover {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 33px;
-	margin: 25px 100px 30px 100px;
+	margin: 0% 100px 30px 100px;
 }
 
 .mz-module .section-title {
@@ -518,6 +523,7 @@ figure.effect-bubba:hover p {
 /*--------------------
 4.6. Team
 --------------------*/
+
 
 .team-item {
     text-align: center;
