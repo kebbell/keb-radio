@@ -71,7 +71,7 @@ section {
 }
 
 img {
-    display: inline;
+    display: flex;
 
     width: 100%; /* Make the image fill the width of the container */
     height: 100%; /* Make the image fill the height of the container */
