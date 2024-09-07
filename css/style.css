@@ -223,10 +223,10 @@ h5 {
 }
 .navbar-default .navbar-toggle {
 	background-color: #ffffff;
-	border-color: #ffffff
+	border-color: #cfcfcf
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff
+	background-color: #000000
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
 	background-color: #ffffff
